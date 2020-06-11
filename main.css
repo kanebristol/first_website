@@ -15,7 +15,7 @@ body {
 }
 
 li {
-    color: rgba(20, 33, 61, 1);
+    color: rgb(60, 92, 160);
 }
 
 
@@ -113,13 +113,17 @@ h1, h2 {
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     font-size: 60px;
-    align-self: center;
+    align-self: auto;
     margin-top: 2.5px;
 }
 
 h2 {
     font-size: 25px;
     color: rgba(20, 33, 61, 0.5);
+}
+
+h3 {
+    color: #fff;
 }
 
 .built-divider-text {
@@ -215,7 +219,7 @@ p {
 .screengrab img {
     opacity: 0.4;
     width: 100%;
-    height: auto;
+    height: 300px;
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
@@ -231,7 +235,12 @@ p {
     transform: scale(1.03);
 }
 
-
+.screengrab2 {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(20, 33, 61, 1);
 
 
 
