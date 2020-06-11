@@ -21,21 +21,21 @@ li {
 
     /* unvisited link */
 a:link {
-    color: rgba(255, 163, 17, 1);
+    color: rgb(138, 138, 136);
     font-family: Karla;
     font-weight: 200;
   }
   
   /* visited link */
 a:visited {
-    color:rgba(20, 33, 61, 1);
+    color: rgb(138, 138, 136);
     font-family: Karla;
     font-weight: 200;
   }
   
   /* mouse over link */
 a:hover {
-    color: rgba(229, 229, 229, 1);
+    color: rgb(231, 255, 17);
     font-family: Karla;
     font-weight: 200;
   }
